@@ -25,7 +25,7 @@ Therefore, the following are part of the considerations during the design and im
 3rd Floor:
  Admin & IT- VLAN 20, Network of 192.168.2.0/24
  Server Room- VLAN 10, Network of 192.168.1.0/24
-8. Use OSPF as the routing protocol to advertise routes.
+8. Used OSPF as the routing protocol to advertise routes.
 9. All devices in the network are expected to obtain IP address dynamically with their respective router configured as the DHCP server.
 10. All the devices in the network are expected to communicate with each other.
 11. Configure SSH in all the routers for remote login.
