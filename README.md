@@ -24,12 +24,21 @@ Therefore, the following are part of the considerations during the design and im
  Staff Room- VLAN 30, Network of 192.168.3.0/24
 3rd Floor:
  Admin & IT- VLAN 20, Network of 192.168.2.0/24
-
-![image](https://github.com/xtrahue/Bank_Network/assets/108055347/a1ecf75a-f7e9-453a-8c48-a7e2c7c0abe6)
-
  Server Room- VLAN 10, Network of 192.168.1.0/24
 9. Used OSPF as the routing protocol to advertise routes.
 10. All devices in the network are expected to obtain IP address dynamically with their respective router configured as the DHCP server.
 11. All the devices in the network are expected to communicate with each other.
 12. Configure SSH in all the routers for remote login.
 13. In IT department, add PC called Test-PC to port fa0/1 and use it to test remote login.
+
+
+
+![image](https://github.com/xtrahue/Bank_Network/assets/108055347/1b9c1f07-6e78-4f0c-9d7a-ec62d3087af7)
+
+Pinging From 3rd to 2nd Floor
+![image](https://github.com/xtrahue/Bank_Network/assets/108055347/784f9e9d-7442-4af1-accb-824256ba215b)
+
+Pinging from 3rd to 1st
+![image](https://github.com/xtrahue/Bank_Network/assets/108055347/1e0eb9c9-21f8-43dc-821a-3a9e1f054acf)
+
+
