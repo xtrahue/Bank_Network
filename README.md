@@ -1,5 +1,5 @@
 # Bank_Network
-Design and implementation of a banking network using Cisco packet tracer.
+Design of a banking network using Cisco packet tracer.
 
 <----About----->
 The Bank has three floors.
